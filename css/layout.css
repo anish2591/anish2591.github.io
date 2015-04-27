@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/yosemite.jpg) no-repeat top center;
+   background: #161415 url(../images/cmu.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -1053,4 +1053,47 @@ footer .social-links li:first-child { margin-left: 0; }
 #courses .header-col { padding-top: 9px; }
 #courses .main-col { padding-right: 10%; }
 
+#hobbies {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#hobbies a, #hobbies a:visited  { color: #fff; }
+#hobbies a:hover, #hobbies a:focus { color: #11ABB0; }
+
+#hobbies h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#hobbies p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#hobbies .profile-pic {
+   position: relative;
+   width: auto;
+   height: 500px;
+   border-radius: 0px;
+}
+#hobbies .contact-details { width: 41.66667%; }
+#hobbies .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#hobbies .main-col { padding-right: 5%; }
+#hobbies .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#hobbies .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#hobbies .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
 
